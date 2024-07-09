@@ -19,6 +19,20 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Dhanwantari-app ",
+      github:"https://github.com/alpharosto/Xero_app",
+      description: "https://github.com/alpharosto/Xero_app Xero_App is an healthcare application which primary focuses on two uncovered aspect of Health application and Personalisation",
+      imgUrl: projImg1,
+    },
+    
+    {
+      title: "Healthapp-blockchain ",
+      github:"https://github.com/SayaliZambre/Healthapp-blockchain",
+      description: "https://github.com/SayaliZambre/Healthapp-blockchain  The medical record storage system utilizing blockchain technology is an innovative solution designed to securely store and manage patient medical records in a decentralized and tamper-proof manner. By leveraging blockchain's inherent characteristics—immutability, transparency, and distributed consensus—this system revolutionizes the handling, sharing, and accessing of medical data.",
+      imgUrl: projImg1,
+    },
+
+    {
       title: "Chat-app ",
       github:"https://github.com/SayaliZambre/chat-app",
       description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
@@ -30,7 +44,7 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "EccomerceAI",
+      title: "Flipcart",
       description: "https://github.com/SayaliZambre/EcommerceAI Revolutionize your shopping experience with our platform, seamlessly blending the power of artificial intelligence",
       imgUrl: projImg6,
     },
