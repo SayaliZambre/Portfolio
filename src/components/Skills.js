@@ -10,6 +10,8 @@ import meter9 from "../assets/img/figma.png";
 import meter10 from "../assets/img/git.png";
 import meter11 from "../assets/img/reactjs.png";
 import meter12 from "../assets/img/C_Logo.png";
+import meter13 from "../assets/img/Next.jpg";
+import meter14 from "../assets/img/What-Is-React-Native.png";
 
 
 import Carousel from 'react-multi-carousel';
@@ -97,6 +99,14 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter4} alt="Image" />
                                 <h5>Canva</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter13} alt="Image" />
+                                <h5>Next</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter14} alt="Image" />
+                                <h5>Native.js</h5>
                             </div>
                         </Carousel>
                     </div>

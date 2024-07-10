@@ -1,11 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import {ProjectCard } from './ProjectCard';
-import projImg1 from "../assets/img/chatapp.png";
-import projImg2 from "../assets/img/quiz.png";
-import projImg3 from "../assets/img/music1.png";
-import projImg4 from "../assets/img/ide.jpeg";
-import projImg5 from "../assets/img/disscusify.png";
-import projImg6 from "../assets/img/ecoomerce.png";
+
+import projImg from "../assets/img/Project.png";
+// import projImg2 from "../assets/img/quiz.png";
+// import projImg3 from "../assets/img/music1.png";
+// import projImg4 from "../assets/img/ide.jpeg";
+// import projImg5 from "../assets/img/disscusify.png";
+// import projImg6 from "../assets/img/ecoomerce.png";
 // import projImg5 from "../assets/img/disscusify.png";
 // import projImg5 from "../assets/img/disscusify.png";
 // import projImg5 from "../assets/img/disscusify.png";
@@ -22,47 +23,47 @@ export const Projects = () => {
       title: "Dhanwantari-app ",
       github:"https://github.com/alpharosto/Xero_app",
       description: "https://github.com/alpharosto/Xero_app Xero_App is an healthcare application which primary focuses on two uncovered aspect of Health application and Personalisation",
-      imgUrl: projImg1,
+      imgUrl: projImg,
     },
     
     {
       title: "Healthapp-blockchain ",
       github:"https://github.com/SayaliZambre/Healthapp-blockchain",
-      description: "https://github.com/SayaliZambre/Healthapp-blockchain  The medical record storage system utilizing blockchain technology is an innovative solution designed to securely store and manage patient medical records in a decentralized and tamper-proof manner. By leveraging blockchain's inherent characteristics—immutability, transparency, and distributed consensus—this system revolutionizes the handling, sharing, and accessing of medical data.",
-      imgUrl: projImg1,
+      description: "https://github.com/SayaliZambre/Healthapp-blockchain A blockchain-based medical record system ensures secure and accessing of medical records.",
+      imgUrl: projImg,
     },
 
     {
       title: "Chat-app ",
       github:"https://github.com/SayaliZambre/chat-app",
       description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
-      imgUrl: projImg1,
+      imgUrl: projImg,
     },
     {
       title: "Quiz-app",
       description: "https://github.com/SayaliZambre/quiz1 Engage and challenge yourself with our interactive quiz application. Test your knowledge, learn new facts, and have fun with a diverse range of quizzes.",
-      imgUrl: projImg2,
+      imgUrl: projImg,
     },
     {
       title: "Flipcart",
       description: "https://github.com/SayaliZambre/EcommerceAI Revolutionize your shopping experience with our platform, seamlessly blending the power of artificial intelligence",
-      imgUrl: projImg6,
+      imgUrl: projImg,
     },
     {
       title: "Music",
       description: "https://github.com/SayaliZambre/music Immerse yourself in a world of melodies with enjoy your favorite tunes anytime.",
-      imgUrl: projImg3,
+      imgUrl: projImg,
     },
     {
       title: "Ide",
       description: "https://github.com/SayaliZambre/ide Your creative hub for coding",
-      imgUrl: projImg4,
+      imgUrl: projImg,
     },
    
     {
       title: "Discussify",
       description: "https://github.com/SayaliZambre/Discussify Elevate conversations with our platform that fosters meaningful discussions",
-      imgUrl: projImg5,
+      imgUrl: projImg,
     },
   
   ];

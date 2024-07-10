@@ -22,6 +22,7 @@ export const Contact = () => {
         [category]: value
       })
   }
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
